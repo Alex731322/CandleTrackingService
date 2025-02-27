@@ -1,0 +1,6 @@
+@CandleTrackingService.API_HostAddress = http://localhost:5273
+
+GET {{CandleTrackingService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

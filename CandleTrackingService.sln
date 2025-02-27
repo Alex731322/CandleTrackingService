@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandleTrackingService.API", "CandleTrackingService.API\CandleTrackingService.API.csproj", "{BD933AC7-D368-455F-8F1A-98659717232A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandleTrackingService.Domain", "CandleTrackingService.Domain\CandleTrackingService.Domain.csproj", "{366A4F1E-17A4-4CCA-8720-E5D673C39309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandleTrackingService.Infrastructure", "CandleTrackingService.Infrastructure\CandleTrackingService.Infrastructure.csproj", "{81D3CFDF-D4E8-4715-8754-65630916397A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandleTrackingService.Application", "CandleTrackingService.Application\CandleTrackingService.Application.csproj", "{343FE182-29E7-47E2-A3AD-8E8182079D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD933AC7-D368-455F-8F1A-98659717232A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD933AC7-D368-455F-8F1A-98659717232A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD933AC7-D368-455F-8F1A-98659717232A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD933AC7-D368-455F-8F1A-98659717232A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{366A4F1E-17A4-4CCA-8720-E5D673C39309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366A4F1E-17A4-4CCA-8720-E5D673C39309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366A4F1E-17A4-4CCA-8720-E5D673C39309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366A4F1E-17A4-4CCA-8720-E5D673C39309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D3CFDF-D4E8-4715-8754-65630916397A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D3CFDF-D4E8-4715-8754-65630916397A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D3CFDF-D4E8-4715-8754-65630916397A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D3CFDF-D4E8-4715-8754-65630916397A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343FE182-29E7-47E2-A3AD-8E8182079D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343FE182-29E7-47E2-A3AD-8E8182079D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343FE182-29E7-47E2-A3AD-8E8182079D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343FE182-29E7-47E2-A3AD-8E8182079D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
